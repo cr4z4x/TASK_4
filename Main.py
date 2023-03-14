@@ -49,7 +49,7 @@ while(True):
     
     cv2.imshow("BW",light)
 
-    plt.xlabel("Shade of gray")
+    plt.xlabel("Shade of grey")
     plt.ylabel("Occurourences")
     flat=flatten_array(light)
     plt.hist(flat,256,[0,255])
